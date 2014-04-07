@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Backbone Testing</title>
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.css" />
+    <title>Backbone Testing Demo 1</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.css" />
     <style>
         .container {
             margin-top: 10px;
@@ -14,7 +14,7 @@
     <div class="hero-unit">
         <h2><a href="#/"> Users Manager</a></h2>
         <p>
-            <a class="btn btn-primary btn-large" href="https://www.youtube.com/watch?v=HsEw2i4wQMM" title="Backbone.js tutorial for beginners - WITH LIVE EXAMPLE">
+            <a class="btn btn-primary btn-large" href="//www.youtube.com/watch?v=HsEw2i4wQMM" title="Backbone.js tutorial for beginners - WITH LIVE EXAMPLE">
                 Backbone.js - WITH LIVE EXAMPLE
             </a>
         </p>
@@ -66,9 +66,9 @@
     </form>
 </script>
 
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js"></script>
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore.js"></script>
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone.js"></script>
 <script>
 
     // jQuery.SerializeObject
@@ -89,7 +89,7 @@
     };
 
     $.ajaxPrefilter( function(options, originalOptions, jqXHR) {
-        options.url = 'http://backbonejs-beginner.herokuapp.com' + options.url;
+        options.url = '//backbonejs-beginner.herokuapp.com' + options.url;
     });
 
     var Users = Backbone.Collection.extend({
